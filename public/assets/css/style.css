@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+textarea {
+    height: 150px;
+}
+
+input[type="file"] {
+    margin-bottom: 15px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Post List Styles */
+.posts {
+    margin-top: 30px;
+}
+
+.post {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.post h3 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.post p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.post img, .post video, .post audio {
+    max-width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.post a {
+    margin-right: 15px;
+    color: #e74c3c;
+}
+
+.post a:hover {
+    color: #c0392b;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+    
+    h1, h
